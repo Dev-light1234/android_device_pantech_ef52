@@ -22,7 +22,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/pantech/ef52/releasetools
 -include vendor/pantech/ef52/BoardConfigVendor.mk
 
 TARGET_KERNEL_SOURCE := kernel/pantech/msm8960
-TARGET_KERNEL_CONFIG := Hiru_ef52_defconfig
+TARGET_KERNEL_CONFIG := LineageOS_ef52_defconfig
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 20971520 #20MB
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 20971520 #20MB
@@ -41,6 +41,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/ef52/bluetooth
 
 #Sensor
 EF52_USE_KITKAT_SENSORS := yes
+
+# Properties
+TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
 #TWRP screen config
 DEVICE_RESOLUTION := 720x1280

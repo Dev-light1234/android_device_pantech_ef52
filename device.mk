@@ -24,18 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += device/pantech/ef52/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# Camera
-#PRODUCT_PACKAGES += \
-#    camera.msm8960
-
-# Lights
-#PRODUCT_PACKAGES += \
-	lights.msm8960
-
-# audio UCM files
-#PRODUCT_COPY_FILES += \
-                       device/pantech/ef52/snd_soc_msm/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3 \
-
 # Checking model
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/releasetools/device_check.sh:system/bin/device_check.sh
@@ -63,9 +51,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	device/pantech/ef52/thermald/thermald-8064_ef52.conf:system/etc/thermald.conf \
 	device/pantech/ef52/thermald/thermal-engine-8064.conf:system/etc/thermal-engine-8064.conf
-
-PRODUCT_PACKAGES += \
-    Torch
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=300
