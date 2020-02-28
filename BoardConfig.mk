@@ -12,8 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
--include device/pantech/msm8960-common/BoardConfigCommon.mk
+PLATFORM_PATH := device/pantech/ef52
 
+# Inherit from msm8960-common
+-include device/pantech/msm8960-common/BoardConfigCommon.mk
 
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := device/pantech/ef52/releasetools
@@ -43,7 +45,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/ef52/bluetooth
 EF52_USE_KITKAT_SENSORS := yes
 
 # Properties
-TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
+TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
 
 #TWRP screen config
 DEVICE_RESOLUTION := 720x1280
