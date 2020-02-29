@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 	device/pantech/ef52/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
 	device/pantech/ef52/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm
 
+# Lights
+PRODUCT_PACKAGES += \
+	lights.msm8960
+
 # idc
 PRODUCT_COPY_FILES += \
 	device/pantech/ef52/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
