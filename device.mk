@@ -52,10 +52,6 @@ PRODUCT_COPY_FILES += \
 	device/pantech/ef52/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
 	device/pantech/ef52/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 
-PRODUCT_COPY_FILES += \
-	device/pantech/ef52/thermald/thermald-8064_ef52.conf:system/etc/thermald.conf \
-	device/pantech/ef52/thermald/thermal-engine-8064.conf:system/etc/thermal-engine-8064.conf
-
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sf.lcd_density=300
 
