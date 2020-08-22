@@ -38,6 +38,10 @@ TARGET_OTA_ASSERT_DEVICE := ef52l,ef52s,ef52k,ef52
 # LightHAL
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_ef52
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ef52
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/pantech/ef52/bluetooth
 
@@ -46,6 +50,3 @@ EF52_USE_KITKAT_SENSORS := yes
 
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
-
-#TWRP screen config
-DEVICE_RESOLUTION := 720x1280
