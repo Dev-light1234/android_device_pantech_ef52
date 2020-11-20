@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common BlurOS stuff.
-$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+#$(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/pantech/ef52/full_ef52.mk)

@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_ef52.mk
+    $(LOCAL_DIR)/pa_ef52.mk
