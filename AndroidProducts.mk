@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ef52.mk
+    $(LOCAL_DIR)/full_ef52.mk

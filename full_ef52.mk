@@ -35,3 +35,6 @@ TARGET_DEVICE := $(PRODUCT_DEVICE)
 # specify phone type - needed by 2G toggle
 PRODUCT_PROPERTY_OVERRIDES += \
     gsm.current.phone-type=1
+
+# Paranoid Android platform
+include vendor/pa/main.mk

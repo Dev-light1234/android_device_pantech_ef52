@@ -12,7 +12,7 @@ $(call inherit-product, device/pantech/ef52/full_ef52.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ef52
-PRODUCT_NAME := aosp_ef52
+PRODUCT_NAME := pa_ef52
 PRODUCT_BRAND := VEGA
 PRODUCT_MODEL := Vega Iron
 PRODUCT_MANUFACTURER := Pantech
