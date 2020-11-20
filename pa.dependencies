@@ -1,11 +1,5 @@
 [
     {
-        "target_path":  "device/qcom/common",
-        "repository":   "AOSPA/android_device_qcom_common",
-        "remote":       "aospa",
-        "revision":     "nougat-mr2"
-    },
-    {
         "target_path":  "external/stlport",
         "repository":   "android_external_stlport",
         "remote":       "lineage",

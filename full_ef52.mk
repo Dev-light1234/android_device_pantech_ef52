@@ -38,3 +38,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Paranoid Android platform
 include vendor/pa/main.mk
+
